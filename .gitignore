@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 环境变量
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# pip 缓存（放在 D 盘避免占用 C 盘）
+.pip-cache/
