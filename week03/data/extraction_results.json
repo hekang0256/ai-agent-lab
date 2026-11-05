@@ -20,5 +20,27 @@
         "未明确知识产权归属"
       ]
     }
+  },
+  {
+    "source": "data\\contracts\\contract_02.txt",
+    "ok": true,
+    "data": {
+      "contract_no": "DEV-2026-078",
+      "party_a": "星辰电商集团",
+      "party_b": "云启软件工作室",
+      "amount_cny": 850000.0,
+      "sign_date": "2026-05-10",
+      "effective_date": "2026-05-20",
+      "expiry_date": "2026-12-31",
+      "payment_terms": "分三期支付：签约30%、中期40%、验收30%",
+      "key_obligations": [
+        "完成需求规格说明书编写",
+        "每两周进行一次版本迭代",
+        "提供一年免费维护"
+      ],
+      "risks": [
+        "未明确需求变更的计价方式"
+      ]
+    }
   }
 ]

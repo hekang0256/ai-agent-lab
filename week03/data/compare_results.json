@@ -2,81 +2,121 @@
   {
     "variant": "default/T0.0/short",
     "run_idx": 0,
-    "ok": false,
-    "latency_ms": 0.024399982066825032,
+    "ok": true,
+    "latency_ms": 0.031099974876269698,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.0/short",
     "run_idx": 1,
-    "ok": false,
-    "latency_ms": 0.007499998901039362,
+    "ok": true,
+    "latency_ms": 0.0137000170070678,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
+  },
+  {
+    "variant": "default/T0.0/short",
+    "run_idx": 2,
+    "ok": true,
+    "latency_ms": 0.01069999416358769,
+    "prompt_tokens": 60,
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.0/full",
     "run_idx": 0,
-    "ok": false,
-    "latency_ms": 0.007800001185387373,
+    "ok": true,
+    "latency_ms": 0.014299992471933365,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.0/full",
     "run_idx": 1,
-    "ok": false,
-    "latency_ms": 0.005500012775883079,
+    "ok": true,
+    "latency_ms": 0.012499978765845299,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
+  },
+  {
+    "variant": "default/T0.0/full",
+    "run_idx": 2,
+    "ok": true,
+    "latency_ms": 0.009800016414374113,
+    "prompt_tokens": 60,
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.7/short",
     "run_idx": 0,
-    "ok": false,
-    "latency_ms": 0.006599992047995329,
+    "ok": true,
+    "latency_ms": 0.012400007108226418,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.7/short",
     "run_idx": 1,
-    "ok": false,
-    "latency_ms": 0.0051000097300857306,
+    "ok": true,
+    "latency_ms": 0.01829999382607639,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
+  },
+  {
+    "variant": "default/T0.7/short",
+    "run_idx": 2,
+    "ok": true,
+    "latency_ms": 0.010399991879239678,
+    "prompt_tokens": 60,
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.7/full",
     "run_idx": 0,
-    "ok": false,
-    "latency_ms": 0.006499991286545992,
+    "ok": true,
+    "latency_ms": 0.015900004655122757,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   },
   {
     "variant": "default/T0.7/full",
     "run_idx": 1,
-    "ok": false,
-    "latency_ms": 0.010299991117790341,
+    "ok": true,
+    "latency_ms": 0.009299983503296971,
     "prompt_tokens": 60,
-    "completion_tokens": 14,
-    "output": "{\"ok\": true, \"echo\": \"mock\"}",
-    "error": "缺字段: {'city', 'name', 'age'}"
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
+  },
+  {
+    "variant": "default/T0.7/full",
+    "run_idx": 2,
+    "ok": true,
+    "latency_ms": 0.008700008038431406,
+    "prompt_tokens": 60,
+    "completion_tokens": 19,
+    "output": "{\"name\": \"李四\", \"age\": 35, \"city\": \"北京\"}",
+    "error": ""
   }
 ]
