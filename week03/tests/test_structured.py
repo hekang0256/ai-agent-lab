@@ -41,12 +41,18 @@ class Person(BaseModel):
     age: int = Field(ge=0, le=150)
 
 
+class _UnknownSchema(BaseModel):
+    """Mock 不认识此 schema，会走默认 JSON 路径返回 {"ok": true, "echo": "mock"}，
+    缺少必需字段 mysterious_field，触发重试。"""
+    mysterious_field: str
+
+
 def test_structured_client_retries_on_bad_output():
-    """Mock 默认不返回 Person schema，会触发重试，最终失败。"""
+    """Mock 对不认识的 schema 返回缺字段 JSON，应触发重试，最终失败。"""
     llm = MockLLMClient()
     client = StructuredClient(llm, max_retries=2)
     with pytest.raises(ExtractionError, match="3 次尝试"):
-        client.extract(schema=Person, system="test", user="test")
+        client.extract(schema=_UnknownSchema, system="test", user="test")
     # 应该调用了 1 + 2 = 3 次
     assert len(llm.calls) == 3
 
