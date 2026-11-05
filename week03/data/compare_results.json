@@ -1,0 +1,82 @@
+[
+  {
+    "variant": "default/T0.0/short",
+    "run_idx": 0,
+    "ok": false,
+    "latency_ms": 0.024399982066825032,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.0/short",
+    "run_idx": 1,
+    "ok": false,
+    "latency_ms": 0.007499998901039362,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.0/full",
+    "run_idx": 0,
+    "ok": false,
+    "latency_ms": 0.007800001185387373,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.0/full",
+    "run_idx": 1,
+    "ok": false,
+    "latency_ms": 0.005500012775883079,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.7/short",
+    "run_idx": 0,
+    "ok": false,
+    "latency_ms": 0.006599992047995329,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.7/short",
+    "run_idx": 1,
+    "ok": false,
+    "latency_ms": 0.0051000097300857306,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.7/full",
+    "run_idx": 0,
+    "ok": false,
+    "latency_ms": 0.006499991286545992,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  },
+  {
+    "variant": "default/T0.7/full",
+    "run_idx": 1,
+    "ok": false,
+    "latency_ms": 0.010299991117790341,
+    "prompt_tokens": 60,
+    "completion_tokens": 14,
+    "output": "{\"ok\": true, \"echo\": \"mock\"}",
+    "error": "缺字段: {'city', 'name', 'age'}"
+  }
+]

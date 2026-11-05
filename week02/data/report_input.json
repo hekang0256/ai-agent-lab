@@ -1,0 +1,16 @@
+{
+  "project": "企业AI实验室",
+  "date": "2026-11-06",
+  "author": "kekang",
+  "progress": [
+    "完成 week02 所有实验",
+    "MockLLM 让 CI 跑通",
+    "日报生成器支持 JSON 输入"
+  ],
+  "blockers": [],
+  "plans": [
+    "开始 week03 结构化输出",
+    "接入 Function Calling"
+  ],
+  "supports": []
+}

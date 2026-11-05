@@ -19,6 +19,8 @@ V1 LLM聊天 → V2 Structured Output → V3 文档解析 → V4 Embedding与搜
 | 目录 | 内容 |
 |------|------|
 | [week01/](week01/README.md) | 第1周：开发环境（Python API 调用、Docker PostgreSQL、FastAPI Web API、SQL、Git） |
+| [week02/](week02/README.md) | 第2周：LLM 基础认知 + API 调用 + Prompt 工程（Token/Context Window、Prompt 五要素、Few-shot、文本工具箱、项目日报生成器） |
+| [week03/](week03/README.md) | 第3周：结构化输出 + Tool Calling + Streaming（JSON Schema/Pydantic、Tool 装饰器与注册表、SSE 流式、合同提取器、模型对比框架） |
 
 ## 全局约定
 
