@@ -1,0 +1,24 @@
+[
+  {
+    "source": "data\\contracts\\contract_01.txt",
+    "ok": true,
+    "data": {
+      "contract_no": "HT-2026-001",
+      "party_a": "甲方示例科技有限公司",
+      "party_b": "乙方示例咨询公司",
+      "amount_cny": 1200000.0,
+      "sign_date": "2026-03-15",
+      "effective_date": "2026-04-01",
+      "expiry_date": "2027-03-31",
+      "payment_terms": "签约后30日内支付50%，验收后支付50%",
+      "key_obligations": [
+        "按月交付项目报告",
+        "提供7x24小时技术支持"
+      ],
+      "risks": [
+        "违约金条款偏严",
+        "未明确知识产权归属"
+      ]
+    }
+  }
+]
