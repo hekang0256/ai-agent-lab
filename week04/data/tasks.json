@@ -1,0 +1,70 @@
+[
+  {
+    "id": "t1",
+    "description": "客服工单分类",
+    "complexity": "low",
+    "expected_prompt_tokens": 800,
+    "expected_completion_tokens": 100,
+    "input": "把工单分为：账单/技术/投诉/其他。工单内容：无法登录系统，提示密码错误。"
+  },
+  {
+    "id": "t2",
+    "description": "会议纪要摘要",
+    "complexity": "medium",
+    "expected_prompt_tokens": 6000,
+    "expected_completion_tokens": 600,
+    "input": "请把这份 90 分钟的会议纪要压缩成 5 条决议和 3 条待办。"
+  },
+  {
+    "id": "t3",
+    "description": "合同风险审查",
+    "complexity": "high",
+    "expected_prompt_tokens": 12000,
+    "expected_completion_tokens": 1500,
+    "input": "审查这份采购合同的违约责任、知识产权与付款条款，给出风险等级和修改建议。"
+  },
+  {
+    "id": "t4",
+    "description": "发票图片信息提取",
+    "complexity": "medium",
+    "needs_vision": true,
+    "expected_prompt_tokens": 2500,
+    "expected_completion_tokens": 400,
+    "input": "提取这张发票的发票号、日期、购销双方、税额与价税合计，输出 JSON。"
+  },
+  {
+    "id": "t5",
+    "description": "客户信息查询（需工具调用）",
+    "complexity": "low",
+    "needs_tools": true,
+    "expected_prompt_tokens": 1200,
+    "expected_completion_tokens": 200,
+    "input": "查一下客户 1001 的等级和最近一笔订单。"
+  },
+  {
+    "id": "t6",
+    "description": "超长文档问答",
+    "complexity": "medium",
+    "min_context": 100000,
+    "expected_prompt_tokens": 60000,
+    "expected_completion_tokens": 800,
+    "input": "基于这份 200 页的产品手册回答：设备在高温环境下的保修政策是什么？"
+  },
+  {
+    "id": "t7",
+    "description": "复杂数据分析推理",
+    "complexity": "high",
+    "expected_prompt_tokens": 8000,
+    "expected_completion_tokens": 2500,
+    "input": "根据四季度的销售数据，分析华东区增速放缓的原因，并给出下一季度的预测。"
+  },
+  {
+    "id": "t8",
+    "description": "扫描合同关键字段提取",
+    "complexity": "high",
+    "needs_vision": true,
+    "expected_prompt_tokens": 4000,
+    "expected_completion_tokens": 800,
+    "input": "从这份扫描合同中提取合同编号、双方、金额、签署日期与违约条款。"
+  }
+]
