@@ -1,0 +1,41 @@
+{
+  "invoice_01.png": {
+    "invoice_no": "INV-2026-0001",
+    "date": "2026-04-12",
+    "seller": "ACME SUPPLY CO",
+    "buyer": "EXAMPLE TECH LTD",
+    "items": [
+      {
+        "name": "CLOUD SERVER",
+        "quantity": 2,
+        "amount": 10000.0
+      },
+      {
+        "name": "SSD 4TB",
+        "quantity": 5,
+        "amount": 2800.0
+      }
+    ],
+    "subtotal": 12800.0,
+    "tax": 768.0,
+    "total": 13568.0,
+    "currency": "CNY"
+  },
+  "invoice_02.png": {
+    "invoice_no": "INV-2026-0002",
+    "date": "2026-05-03",
+    "seller": "NORTHWIND TRADERS",
+    "buyer": "EXAMPLE TECH LTD",
+    "items": [
+      {
+        "name": "OFFICE CHAIR",
+        "quantity": 20,
+        "amount": 9600.0
+      }
+    ],
+    "subtotal": 9600.0,
+    "tax": 576.0,
+    "total": 10176.0,
+    "currency": "CNY"
+  }
+}
