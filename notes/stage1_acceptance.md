@@ -1,18 +1,18 @@
 # 第1阶段自查报告（week01 ~ week04）
 
-> 自查时间：2026-11-06 ｜ 方式：对照各周 README 验收清单 + 检查产出文件 + 实跑全部测试与关键应用
-> 结论：**第1阶段的学习、实验、验收内容已完成，准予进入第2阶段**。
-> 111 条 pytest 中 109 条通过；剩余 2 条为 week01 数据库端到端测试，因当前机器无 Docker/PostgreSQL 未能复验（非代码缺陷，历史已验证通过）。
+> 自查时间：2026-11-06 ｜ 补验时间：2026-11-11 ｜ 方式：对照各周 README 验收清单 + 检查产出文件 + 实跑全部测试与关键应用
+> 结论：**第1阶段的学习、实验、验收内容已完成，111 条 pytest 全部通过**。
+> 2026-11-11 补验：启动 Docker Desktop（4.96.0，安装在用户目录 `AppData\Local\Programs\DockerDesktop`，首次自查误判为未安装）→ `docker compose up -d` 启动 PostgreSQL → week01 4 条测试全部通过，SQL 实验复跑成功。
 
 ## 一、总览
 
 | 周 | 主题 | pytest | 本次实跑 | 应用复验（Mock） | 产出文件 |
 |---|---|---:|---|---|---|
-| week01 | 开发环境：Python API / Docker PostgreSQL / FastAPI / SQL / Git | 4 | ⚠️ 2 passed + 2 failed（缺 DB） | 无需 Mock，依赖 DB | ✅ init.sql / docker-compose.yml |
+| week01 | 开发环境：Python API / Docker PostgreSQL / FastAPI / SQL / Git | 4 | ✅ 4 passed（11-11 补验） | ✅ SQL 实验复跑成功 | ✅ init.sql / docker-compose.yml |
 | week02 | LLM 基础 + API 调用 + Prompt 工程 | 24 | ✅ 24 passed | ✅ 日报生成器 | ✅ report_input.json |
 | week03 | 结构化输出 + Tool Calling + Streaming | 22 | ✅ 22 passed | ✅ 合同提取 + 模型对比 | ✅ 合同样本 / 提取结果 / 对比表 |
 | week04 | 多模态 + 上下文与记忆 + 模型选型与成本 | 61 | ✅ 61 passed | ✅ 发票提取 + 成本仿真 + 综合助手 | ✅ 发票图 / 音频 / 提取结果 / 成本报告 |
-| 合计 | | **111** | **109 passed / 2 环境受阻** | | |
+| 合计 | | **111** | **111 passed（含 11-11 补验）** | | |
 
 ## 二、逐周验收清单核对
 
@@ -21,7 +21,7 @@
 - [x] 独立创建 Python 项目（venv + requirements.txt）
 - [x] 调用 HTTP API（同步/异步/JSON/错误处理）——`scripts/api_call.py`
 - [x] 写 SQL（建表/增删改查/JOIN/聚合）——`scripts/sql_basics.py` + `db/init.sql`
-- [⚠️] Docker Compose 启动 PostgreSQL —— **本次未能复验**：当前机器未检测到 Docker Desktop 安装，5432 端口无监听、无 PostgreSQL 服务。`test_health` 与 `test_validation_error` 通过；`test_create_get_update_delete_task`、`test_filter_by_status` 因连接失败而 failed。README 已记录历史 4 passed。
+- [x] Docker Compose 启动 PostgreSQL —— **11-11 已复验**：Docker Desktop 4.96.0（用户目录安装）启动后 `docker compose up -d`，容器 `ai_agent_lab_pg` healthy，4 条测试全部通过。首次自查误判为「未安装」，实际只是未运行且安装在非默认路径。
 - [x] 提交 Git（kekang / 1650778095@qq.com）
 
 ### week02（验收标准：独立调 OpenAI 兼容 API、Prompt 解决任务、判断 token 超窗）
@@ -65,13 +65,7 @@
 
 ## 四、未覆盖项（如实记录）
 
-1. **week01 数据库端到端测试未能在当前机器复验**（环境缺失，非代码问题）。
-   复验方法：安装并启动 Docker Desktop 后执行
-   ```bash
-   cd week01
-   docker compose up -d
-   .venv\Scripts\python.exe -m pytest tests -q   # 预期 4 passed
-   ```
+1. ~~week01 数据库端到端测试未复验~~ → **已解决（2026-11-11）**：Docker Desktop 已启动，4 条测试全部通过。
 2. **真实 LLM API 未验证**：week02~week04 全部以 Mock 离线复验，流程与代码路径已覆盖，但真实模型的输出质量、延迟、成本未实测（week03 README 已标注「结论待真实 API 填充」）。
    如需实测：配置 `.env`（LLM_API_KEY）后取消 `LLM_USE_MOCK`，重跑各周实验；多模态需换视觉模型。
 3. **成本数字为教学示例价**：week04 价格表非实时报价，节省比例（91.1%）用于说明方法论，不代表真实账单。
