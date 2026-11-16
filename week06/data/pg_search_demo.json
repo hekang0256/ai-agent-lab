@@ -1,0 +1,86 @@
+[
+  {
+    "query": "出差打车费用怎么报销",
+    "category": null,
+    "results": [
+      {
+        "id": "P01",
+        "title": "差旅报销制度",
+        "category": "财务",
+        "score": 0.992
+      },
+      {
+        "id": "P02",
+        "title": "日常费用报销规定",
+        "category": "财务",
+        "score": 0.9337
+      },
+      {
+        "id": "P14",
+        "title": "出差审批流程",
+        "category": "人事",
+        "score": 0.3236
+      }
+    ]
+  },
+  {
+    "query": "报销需要哪些材料",
+    "category": "财务",
+    "results": [
+      {
+        "id": "P02",
+        "title": "日常费用报销规定",
+        "category": "财务",
+        "score": 0.9622
+      },
+      {
+        "id": "P01",
+        "title": "差旅报销制度",
+        "category": "财务",
+        "score": 0.9009
+      }
+    ]
+  },
+  {
+    "query": "报销需要哪些材料",
+    "category": "IT",
+    "results": [
+      {
+        "id": "P08",
+        "title": "账号与权限管理",
+        "category": "IT",
+        "score": 0.0546
+      },
+      {
+        "id": "P09",
+        "title": "VPN 与服务器使用",
+        "category": "IT",
+        "score": 0.0165
+      }
+    ]
+  },
+  {
+    "query": "今天中午吃什么",
+    "category": null,
+    "results": [
+      {
+        "id": "P07",
+        "title": "采购与供应商管理",
+        "category": "行政",
+        "score": 0.2245
+      },
+      {
+        "id": "P13",
+        "title": "会议室与会议纪要",
+        "category": "行政",
+        "score": 0.0708
+      },
+      {
+        "id": "P12",
+        "title": "入职与转正流程",
+        "category": "人事",
+        "score": 0.064
+      }
+    ]
+  }
+]
