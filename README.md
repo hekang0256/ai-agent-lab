@@ -24,6 +24,7 @@ V1 LLM聊天 → V2 Structured Output → V3 文档解析 → V4 Embedding与搜
 | [week04/](week04/README.md) | 第4周：多模态 + Context Engineering + 模型选型与成本（图像/音频输入、上下文裁剪与摘要、长期记忆、模型路由、第1阶段综合验收） |
 | [week05/](week05/README.md) | 第5周：Embedding（向量与相似度、OpenAI 兼容 Embedding API、语义搜索与阈值拒答、FAQ 语义去重） |
 | [week06/](week06/README.md) | 第6周：Vector Search（pgvector、Top-K 与 Metadata Filter 下推、HNSW/IVFFlat 索引与 EXPLAIN、索引维护） |
+| [week07/](week07/README.md) | 第7周：基础 RAG（文档解析、Chunking、Retrieval、受约束生成、Citation、50 条问题集验收） |
 
 ## 全局约定
 

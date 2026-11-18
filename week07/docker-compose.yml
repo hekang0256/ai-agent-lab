@@ -1,0 +1,22 @@
+# week07 专用实例，避免覆盖 week06 的表和数据卷
+services:
+  pgvector:
+    image: pgvector/pgvector:pg16
+    container_name: ai_agent_lab_rag_pgvector
+    environment:
+      POSTGRES_USER: lab
+      POSTGRES_PASSWORD: lab123
+      POSTGRES_DB: ai_agent_lab_rag
+    ports:
+      - "5434:5432"
+    volumes:
+      - rag_pgvector_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lab -d ai_agent_lab_rag"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  rag_pgvector_data:

@@ -1,0 +1,109 @@
+{
+  "scope": "real_llm_with_mock_embedding_not_full_acceptance",
+  "responses": [
+    {
+      "query": "出差打车费用怎么报销？",
+      "answer": "出差打车费用可按差旅标准报销。[1]  \n报销需提交发票与行程单。[1]  \n审批通过后五个工作日内到账。[1]",
+      "retrieved": [
+        {
+          "chunk_id": "P01:chunk:000",
+          "document_id": "P01",
+          "title": "差旅报销制度",
+          "score": 0.992291,
+          "text": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。"
+        },
+        {
+          "chunk_id": "P02:chunk:000",
+          "document_id": "P02",
+          "title": "日常费用报销规定",
+          "score": 0.931208,
+          "text": "办公用品、团队聚餐等费用报销需在发生后三十天内提交，发票抬头必须为公司全称，超标部分自理。"
+        }
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "chunk_id": "P01:chunk:000",
+          "document_id": "P01",
+          "title": "差旅报销制度",
+          "source": "D:\\ai-agent-lab\\week07\\data\\docs\\policies.md",
+          "score": 0.992290792811236,
+          "text": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。"
+        }
+      ],
+      "refused": false,
+      "refusal_reason": null,
+      "citation_status": "ok",
+      "invalid_citation_indexes": [],
+      "model": "kimi-for-coding",
+      "usage": {
+        "prompt_tokens": 353,
+        "completion_tokens": 310,
+        "total_tokens": 663
+      },
+      "latency_ms": 6331.112
+    },
+    {
+      "query": "离职当天账号权限怎么处理？",
+      "answer": "根据资料，离职当天的账号权限处理方式如下：\n\n- **入职后**开通邮箱与账号，密码每九十天更换一次 [1]。\n- **离职当天关闭全部权限** [1]。\n\n即账号权限应在员工离职当天全部关闭 [1]。",
+      "retrieved": [
+        {
+          "chunk_id": "P08:chunk:000",
+          "document_id": "P08",
+          "title": "账号与权限管理",
+          "score": 0.98856,
+          "text": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。"
+        },
+        {
+          "chunk_id": "P09:chunk:000",
+          "document_id": "P09",
+          "title": "VPN 与服务器使用",
+          "score": 0.837374,
+          "text": "远程访问内网必须使用公司 VPN，服务器操作需申请权限并留存操作日志。"
+        },
+        {
+          "chunk_id": "P12:chunk:000",
+          "document_id": "P12",
+          "title": "入职与转正流程",
+          "score": 0.464416,
+          "text": "新员工试用期三个月，入职一周内需完成培训，转正需通过答辩。"
+        }
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "chunk_id": "P08:chunk:000",
+          "document_id": "P08",
+          "title": "账号与权限管理",
+          "source": "D:\\ai-agent-lab\\week07\\data\\docs\\policies.md",
+          "score": 0.9885601612118957,
+          "text": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。"
+        }
+      ],
+      "refused": false,
+      "refusal_reason": null,
+      "citation_status": "ok",
+      "invalid_citation_indexes": [],
+      "model": "kimi-for-coding",
+      "usage": {
+        "prompt_tokens": 404,
+        "completion_tokens": 76,
+        "total_tokens": 480
+      },
+      "latency_ms": 1976.546
+    },
+    {
+      "query": "今天中午吃什么？",
+      "answer": "根据现有资料无法回答。",
+      "retrieved": [],
+      "citations": [],
+      "refused": true,
+      "refusal_reason": "no_relevant_context",
+      "citation_status": "not_applicable",
+      "invalid_citation_indexes": [],
+      "model": "",
+      "usage": {},
+      "latency_ms": 0.0
+    }
+  ]
+}

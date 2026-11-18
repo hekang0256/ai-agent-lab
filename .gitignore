@@ -15,3 +15,6 @@ venv/
 
 # pip 缓存（放在 D 盘避免占用 C 盘）
 .pip-cache/
+
+# 真实 API 评估断点（仅用于本机续跑，避免旧结果被误当成新一轮）
+*.checkpoint.json
