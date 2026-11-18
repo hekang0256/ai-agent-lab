@@ -1,0 +1,1037 @@
+{
+  "metrics": {
+    "total": 50,
+    "answerable": 42,
+    "unanswerable": 8,
+    "retrieval_recall": 0.9524,
+    "answer_keyword_accuracy": 0.9286,
+    "citation_accuracy": 0.9286,
+    "refusal_accuracy": 1.0,
+    "overall_pass_rate": 0.94
+  },
+  "cases": [
+    {
+      "id": "Q01",
+      "query": "出差打车费用怎么报销？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P01"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P02"
+      ],
+      "cited_document_ids": [
+        "P01"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q02",
+      "query": "差旅报销审批后多久到账？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P01"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P02",
+        "P14"
+      ],
+      "cited_document_ids": [
+        "P01"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q03",
+      "query": "出差住宿费和机票能报销吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P01"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P02"
+      ],
+      "cited_document_ids": [
+        "P01"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q04",
+      "query": "办公用品报销要在多久内提交？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P02"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P02"
+      ],
+      "cited_document_ids": [
+        "P02"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "办公用品、团队聚餐等费用报销需在发生后三十天内提交，发票抬头必须为公司全称，超标部分自理。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q05",
+      "query": "报销发票抬头怎么开？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P02"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P02"
+      ],
+      "cited_document_ids": [
+        "P02"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "办公用品、团队聚餐等费用报销需在发生后三十天内提交，发票抬头必须为公司全称，超标部分自理。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q06",
+      "query": "团队聚餐超标部分谁承担？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P02"
+      ],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": false,
+      "answer_keyword_hit": false,
+      "citation_hit": false,
+      "refusal_correct": false,
+      "passed": false,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q07",
+      "query": "病假需要提前做什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P03"
+      ],
+      "retrieved_document_ids": [
+        "P03"
+      ],
+      "cited_document_ids": [
+        "P03"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "正式员工每年享有带薪年假，病假、事假需提前在系统请假，考勤异常需在三日内说明。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q08",
+      "query": "考勤异常要在几天内说明？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P03"
+      ],
+      "retrieved_document_ids": [
+        "P03"
+      ],
+      "cited_document_ids": [
+        "P03"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "正式员工每年享有带薪年假，病假、事假需提前在系统请假，考勤异常需在三日内说明。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q09",
+      "query": "正式员工有带薪年假吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P03"
+      ],
+      "retrieved_document_ids": [
+        "P03"
+      ],
+      "cited_document_ids": [
+        "P03"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "正式员工每年享有带薪年假，病假、事假需提前在系统请假，考勤异常需在三日内说明。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q10",
+      "query": "工作日加班要提前申请吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P04"
+      ],
+      "retrieved_document_ids": [
+        "P04"
+      ],
+      "cited_document_ids": [
+        "P04"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工作日加班需提前申请，加班费按国家规定计算，也可选择补休，调休需在加班后三个月内使用。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q11",
+      "query": "调休应在加班后多久使用？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P04"
+      ],
+      "retrieved_document_ids": [
+        "P03",
+        "P04"
+      ],
+      "cited_document_ids": [
+        "P04"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工作日加班需提前申请，加班费按国家规定计算，也可选择补休，调休需在加班后三个月内使用。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q12",
+      "query": "加班可以选择补休吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P04"
+      ],
+      "retrieved_document_ids": [
+        "P04"
+      ],
+      "cited_document_ids": [
+        "P04"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工作日加班需提前申请，加班费按国家规定计算，也可选择补休，调休需在加班后三个月内使用。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q13",
+      "query": "涉密文档可以外传吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P05"
+      ],
+      "retrieved_document_ids": [
+        "P05"
+      ],
+      "cited_document_ids": [
+        "P05"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工不得泄露公司机密与客户信息，涉密文档禁止外传，离职后仍需遵守保密与竞业限制义务。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q14",
+      "query": "离职后还要保密吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P05"
+      ],
+      "retrieved_document_ids": [
+        "P05",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P05"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工不得泄露公司机密与客户信息，涉密文档禁止外传，离职后仍需遵守保密与竞业限制义务。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q15",
+      "query": "员工可以泄露客户信息吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P05"
+      ],
+      "retrieved_document_ids": [
+        "P05"
+      ],
+      "cited_document_ids": [
+        "P05"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "员工不得泄露公司机密与客户信息，涉密文档禁止外传，离职后仍需遵守保密与竞业限制义务。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q16",
+      "query": "混合办公每周几天远程？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P06"
+      ],
+      "retrieved_document_ids": [
+        "P06"
+      ],
+      "cited_document_ids": [
+        "P06"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "混合办公期间可申请每周两天远程办公，居家办公需保持在线并按时提交日报。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q17",
+      "query": "居家办公要提交什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P06"
+      ],
+      "retrieved_document_ids": [
+        "P06"
+      ],
+      "cited_document_ids": [
+        "P06"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "混合办公期间可申请每周两天远程办公，居家办公需保持在线并按时提交日报。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q18",
+      "query": "远程办公期间需要保持在线吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P06"
+      ],
+      "retrieved_document_ids": [
+        "P06"
+      ],
+      "cited_document_ids": [
+        "P06"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "混合办公期间可申请每周两天远程办公，居家办公需保持在线并按时提交日报。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q19",
+      "query": "采购需要几家供应商比价？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P07"
+      ],
+      "retrieved_document_ids": [
+        "P07"
+      ],
+      "cited_document_ids": [
+        "P07"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "采购需三家供应商比价，超过十万元的采购必须招标，合同需法务审核。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q20",
+      "query": "超过多少钱采购必须招标？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P07"
+      ],
+      "retrieved_document_ids": [
+        "P07"
+      ],
+      "cited_document_ids": [
+        "P07"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "采购需三家供应商比价，超过十万元的采购必须招标，合同需法务审核。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q21",
+      "query": "采购合同需要谁审核？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P07"
+      ],
+      "retrieved_document_ids": [
+        "P07",
+        "P10"
+      ],
+      "cited_document_ids": [
+        "P07"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "采购需三家供应商比价，超过十万元的采购必须招标，合同需法务审核。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q22",
+      "query": "密码多少天更换一次？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P08"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P09"
+      ],
+      "cited_document_ids": [
+        "P09"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": false,
+      "citation_hit": false,
+      "refusal_correct": true,
+      "passed": false,
+      "answer": "远程访问内网必须使用公司 VPN，服务器操作需申请权限并留存操作日志。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q23",
+      "query": "离职当天账号权限怎么处理？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P08"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P09",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P08"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q24",
+      "query": "入职后会开通哪些账号？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P08"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P09",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P08"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q25",
+      "query": "远程访问内网必须使用什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P09"
+      ],
+      "retrieved_document_ids": [
+        "P06"
+      ],
+      "cited_document_ids": [
+        "P06"
+      ],
+      "retrieval_hit": false,
+      "answer_keyword_hit": false,
+      "citation_hit": false,
+      "refusal_correct": true,
+      "passed": false,
+      "answer": "混合办公期间可申请每周两天远程办公，居家办公需保持在线并按时提交日报。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q26",
+      "query": "服务器操作需要申请什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P09"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P09"
+      ],
+      "cited_document_ids": [
+        "P09"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "远程访问内网必须使用公司 VPN，服务器操作需申请权限并留存操作日志。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q27",
+      "query": "服务器操作要保留什么记录？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P09"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P09"
+      ],
+      "cited_document_ids": [
+        "P09"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "远程访问内网必须使用公司 VPN，服务器操作需申请权限并留存操作日志。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q28",
+      "query": "合同签约前要完成什么审核？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P10"
+      ],
+      "retrieved_document_ids": [
+        "P07",
+        "P10"
+      ],
+      "cited_document_ids": [
+        "P10"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "合同签约前需完成法务审核，违约条款需重点评估，盖章后方为生效。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q29",
+      "query": "合同盖章后才生效吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P10"
+      ],
+      "retrieved_document_ids": [
+        "P07",
+        "P10"
+      ],
+      "cited_document_ids": [
+        "P10"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "合同签约前需完成法务审核，违约条款需重点评估，盖章后方为生效。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q30",
+      "query": "合同哪个条款需要重点评估？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P10"
+      ],
+      "retrieved_document_ids": [
+        "P07",
+        "P10"
+      ],
+      "cited_document_ids": [
+        "P10"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "合同签约前需完成法务审核，违约条款需重点评估，盖章后方为生效。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q31",
+      "query": "工资每月几号发？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P11"
+      ],
+      "retrieved_document_ids": [
+        "P11"
+      ],
+      "cited_document_ids": [
+        "P11"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工资每月十日发放，奖金按季度绩效考核发放，薪资异议可向 HR 申诉。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q32",
+      "query": "奖金按什么周期发放？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P11"
+      ],
+      "retrieved_document_ids": [
+        "P11"
+      ],
+      "cited_document_ids": [
+        "P11"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工资每月十日发放，奖金按季度绩效考核发放，薪资异议可向 HR 申诉。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q33",
+      "query": "薪资异议找谁申诉？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P11"
+      ],
+      "retrieved_document_ids": [
+        "P11"
+      ],
+      "cited_document_ids": [
+        "P11"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "工资每月十日发放，奖金按季度绩效考核发放，薪资异议可向 HR 申诉。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q34",
+      "query": "新员工试用期多久？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P12"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P12"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "新员工试用期三个月，入职一周内需完成培训，转正需通过答辩。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q35",
+      "query": "入职一周内要完成什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P12"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P12"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "新员工试用期三个月，入职一周内需完成培训，转正需通过答辩。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q36",
+      "query": "转正需要通过什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P12"
+      ],
+      "retrieved_document_ids": [
+        "P08",
+        "P12"
+      ],
+      "cited_document_ids": [
+        "P12"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "新员工试用期三个月，入职一周内需完成培训，转正需通过答辩。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q37",
+      "query": "会议室需要提前预约吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P13"
+      ],
+      "retrieved_document_ids": [
+        "P13"
+      ],
+      "cited_document_ids": [
+        "P13"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "会议室需提前预约，重要会议需输出纪要并归档保存。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q38",
+      "query": "重要会议要输出什么？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P13"
+      ],
+      "retrieved_document_ids": [
+        "P13"
+      ],
+      "cited_document_ids": [
+        "P13"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "会议室需提前预约，重要会议需输出纪要并归档保存。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q39",
+      "query": "会议纪要如何保存？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P13"
+      ],
+      "retrieved_document_ids": [
+        "P13"
+      ],
+      "cited_document_ids": [
+        "P13"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "会议室需提前预约，重要会议需输出纪要并归档保存。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q40",
+      "query": "出差要提前几天提交审批？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P14"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P14"
+      ],
+      "cited_document_ids": [
+        "P14"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q41",
+      "query": "跨省出差由谁审批？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P14"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P14"
+      ],
+      "cited_document_ids": [
+        "P14"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q42",
+      "query": "紧急出差可以补办审批吗？",
+      "should_answer": true,
+      "expected_document_ids": [
+        "P14"
+      ],
+      "retrieved_document_ids": [
+        "P01",
+        "P14"
+      ],
+      "cited_document_ids": [
+        "P14"
+      ],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。 [1]",
+      "citation_status": "ok"
+    },
+    {
+      "id": "Q43",
+      "query": "今天中午吃什么？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q44",
+      "query": "公司的股票价格是多少？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q45",
+      "query": "如何修理我家漏水的水龙头？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q46",
+      "query": "推荐一部科幻电影。",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q47",
+      "query": "火星上有哪些公司分公司？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q48",
+      "query": "我的个人银行卡余额是多少？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q49",
+      "query": "请写一首关于春天的诗。",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    },
+    {
+      "id": "Q50",
+      "query": "明天天气怎么样？",
+      "should_answer": false,
+      "expected_document_ids": [],
+      "retrieved_document_ids": [],
+      "cited_document_ids": [],
+      "retrieval_hit": true,
+      "answer_keyword_hit": true,
+      "citation_hit": true,
+      "refusal_correct": true,
+      "passed": true,
+      "answer": "根据现有资料无法回答。",
+      "citation_status": "not_applicable"
+    }
+  ]
+}

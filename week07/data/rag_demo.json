@@ -1,0 +1,122 @@
+[
+  {
+    "query": "出差打车费用怎么报销？",
+    "answer": "出差打车费用可按标准报销。[1]  \n报销需提交发票与行程单，审批通过后五个工作日内到账。[1]  \n出差需提前三天提交行程审批；跨省出差由部门负责人审批，紧急情况可补办。[3]",
+    "retrieved": [
+      {
+        "chunk_id": "P01:chunk:000",
+        "document_id": "P01",
+        "title": "差旅报销制度",
+        "score": 0.74367,
+        "text": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。"
+      },
+      {
+        "chunk_id": "P02:chunk:000",
+        "document_id": "P02",
+        "title": "日常费用报销规定",
+        "score": 0.611769,
+        "text": "办公用品、团队聚餐等费用报销需在发生后三十天内提交，发票抬头必须为公司全称，超标部分自理。"
+      },
+      {
+        "chunk_id": "P14:chunk:000",
+        "document_id": "P14",
+        "title": "出差审批流程",
+        "score": 0.577718,
+        "text": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。"
+      }
+    ],
+    "citations": [
+      {
+        "index": 1,
+        "chunk_id": "P01:chunk:000",
+        "document_id": "P01",
+        "title": "差旅报销制度",
+        "source": "D:\\ai-agent-lab\\week07\\data\\docs\\policies.md",
+        "score": 0.7436695251661836,
+        "text": "员工出差产生的机票、住宿、打车费用可按标准报销。报销需提交发票与行程单，审批通过后五个工作日内到账。"
+      },
+      {
+        "index": 3,
+        "chunk_id": "P14:chunk:000",
+        "document_id": "P14",
+        "title": "出差审批流程",
+        "source": "D:\\ai-agent-lab\\week07\\data\\docs\\policies.md",
+        "score": 0.5777183771133464,
+        "text": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。"
+      }
+    ],
+    "refused": false,
+    "refusal_reason": null,
+    "citation_status": "ok",
+    "invalid_citation_indexes": [],
+    "model": "kimi-for-coding",
+    "usage": {
+      "prompt_tokens": 418,
+      "completion_tokens": 211,
+      "total_tokens": 629
+    },
+    "latency_ms": 6362.103
+  },
+  {
+    "query": "离职当天账号权限怎么处理？",
+    "answer": "离职当天应关闭员工的全部账号权限（含邮箱及相关系统权限）。[1]",
+    "retrieved": [
+      {
+        "chunk_id": "P08:chunk:000",
+        "document_id": "P08",
+        "title": "账号与权限管理",
+        "score": 0.759359,
+        "text": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。"
+      },
+      {
+        "chunk_id": "P03:chunk:000",
+        "document_id": "P03",
+        "title": "休假与考勤制度",
+        "score": 0.489016,
+        "text": "正式员工每年享有带薪年假，病假、事假需提前在系统请假，考勤异常需在三日内说明。"
+      },
+      {
+        "chunk_id": "P14:chunk:000",
+        "document_id": "P14",
+        "title": "出差审批流程",
+        "score": 0.48607,
+        "text": "出差需提前三天提交行程审批，跨省出差由部门负责人审批，紧急情况可补办。"
+      }
+    ],
+    "citations": [
+      {
+        "index": 1,
+        "chunk_id": "P08:chunk:000",
+        "document_id": "P08",
+        "title": "账号与权限管理",
+        "source": "D:\\ai-agent-lab\\week07\\data\\docs\\policies.md",
+        "score": 0.7593585396195341,
+        "text": "入职后开通邮箱与账号，密码每九十天更换一次，离职当天关闭全部权限。"
+      }
+    ],
+    "refused": false,
+    "refusal_reason": null,
+    "citation_status": "ok",
+    "invalid_citation_indexes": [],
+    "model": "kimi-for-coding",
+    "usage": {
+      "prompt_tokens": 413,
+      "completion_tokens": 171,
+      "total_tokens": 584
+    },
+    "latency_ms": 3590.615
+  },
+  {
+    "query": "今天中午吃什么？",
+    "answer": "根据现有资料无法回答。",
+    "retrieved": [],
+    "citations": [],
+    "refused": true,
+    "refusal_reason": "no_relevant_context",
+    "citation_status": "not_applicable",
+    "invalid_citation_indexes": [],
+    "model": "",
+    "usage": {},
+    "latency_ms": 0.0
+  }
+]
